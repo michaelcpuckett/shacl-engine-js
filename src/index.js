@@ -2,6 +2,7 @@ import jsonld from 'jsonld'
 import { SHACLEngine } from './Engine.js'
 import * as diff from 'deep-object-diff'
 
+
 const exampleDataGraph = {
   "@context": {
     "@base": "http://example.org/",
